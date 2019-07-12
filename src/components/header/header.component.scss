@@ -1,0 +1,48 @@
+@import "../../assets/styles/imports";
+
+header {
+  width: 100%;
+  color: $color-scale0;
+  z-index: 9;
+  position: absolute;
+  transition: all 0.7s ease;
+  &.header-background {
+    position: fixed;
+    background: $color-scale4;
+    transition: all 0.7s ease;
+  }
+  .inside-container {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    .header-logo {
+      color: $color-scale0;
+      font-family: $font-montserrat;
+      font-size: $font-size-big;
+      font-weight: $font-bold;
+    }
+    .header-nav {
+      display: flex;
+      li {
+        color: $color-scale2;
+        padding: 5px 20px;
+        font-family: $font-open;
+        font-size: $font-size-little;
+        &:hover {
+          color: $color-scale0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $mq-mobile) {
+  header{
+    .inside-container{
+      .header-nav{
+        display: none;
+      }
+    }
+  }
+}

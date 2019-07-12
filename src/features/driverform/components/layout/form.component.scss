@@ -1,0 +1,23 @@
+.form {
+  margin: auto;
+  max-width: 600px;
+
+  .fields {
+    padding: 120px 0 0 0;
+    .row {
+      display: flex;
+      &.photo{
+        margin: 20px 0;
+      }
+      .space-between {
+        padding: 10px;
+      }
+    }
+    .upload-input{
+      display: none;
+    }
+    .upload-button{
+      width: 100%;
+    }
+  }
+}

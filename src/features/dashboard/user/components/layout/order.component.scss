@@ -1,0 +1,18 @@
+@import "../../../../../assets/styles/imports";
+
+.user-order {
+  .fields {
+    margin: 0 20px;
+    padding: 0;
+    .ui-textarea,
+    .ui-input {
+      margin: 10px 0 0 0;
+    }
+  }
+  .user-btn {
+    margin: 15px 0 0 0 !important;
+    background: $color-scale3 !important;
+    font-size: $font-size-little !important;
+    border-radius: 0 !important;
+  }
+}
