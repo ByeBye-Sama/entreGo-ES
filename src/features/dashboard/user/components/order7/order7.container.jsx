@@ -41,9 +41,9 @@ class OrderClient7Logic extends Component {
           <img className="driver-img-7" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="order-title">
-          <h2>Tu conductor</h2>
-          <h2>llego</h2>
-          <h2>al</h2>
+          <h2>Tu</h2>
+          <h2>conductor</h2>
+          <h2>llego al</h2>
           <h2>destino !</h2>
         </div>
         <div>
