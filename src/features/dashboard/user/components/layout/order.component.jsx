@@ -11,10 +11,10 @@ function OrderComponent(props) {
     <form className="form" onSubmit={props.handleSubmit}>
       <div className="fields">
         <div className="row">
-          <UIinput name="cargoVolume" type="cargoVolume" value={props.cargoVolume} label="Package Volume on m3" onChange={props.handleChange}></UIinput>
+          <UIinput name="cargoVolume" type="cargoVolume" value={props.cargoVolume} label="Volumen en m3 del cargo" onChange={props.handleChange}></UIinput>
         </div>
         <div className="row">
-          <UIinput name="obs" type="obs" value={props.obs} label="Product observations" onChange={props.handleChange}></UIinput>
+          <UIinput name="obs" type="obs" value={props.obs} label="Observaciones del producto" onChange={props.handleChange}></UIinput>
         </div>
       </div>
       <UIbutton className="user-btn" name="button" type="submit" variant="contained" color="primary" fullWidth={true}>E N T R E G O</UIbutton>

@@ -40,8 +40,8 @@ class Order2Container extends Component {
         <div>
           <div className="order-btn-2">
             <UIbutton onClick={this.arrivedStartLocation} component={Link} to={driver.order3} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              I ARRIVED &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
-            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCEL</UIbutton>
+              LLEGUE &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
+            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCELAR</UIbutton>
           </div>
         </div>
       </div>

@@ -11,9 +11,9 @@ function LogComponent(props) {
   return (
     <form className="form log-form" onSubmit={props.handleSubmit}>
       <div className="fields">
-        <UIinput name="username" value={props.username} label="Username" onChange={props.handleChange}></UIinput>
+        <UIinput name="username" value={props.username} label="Email" onChange={props.handleChange}></UIinput>
         <span className="space-between" />
-        <UIinput name="password" type="password" value={props.password} label="Password" onChange={props.handleChange}></UIinput>
+        <UIinput name="password" type="password" value={props.password} label="Contraseña" onChange={props.handleChange}></UIinput>
       </div>
       <UIbutton className="login-component-btn" name="button" type="submit" variant="contained" color="primary" fullWidth={true}>L O G I N</UIbutton>
 

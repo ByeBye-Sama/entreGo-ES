@@ -8,7 +8,9 @@ import {
   faLocationArrow,
   faPhone,
   faEnvelope,
-  faClock
+  faClock,
+  faPeopleCarry,
+  faTruckMoving
 } from '@fortawesome/free-solid-svg-icons';
 
 import { gradientEffect } from '../../../../helpers/effects/underline'
@@ -43,7 +45,7 @@ class LandingContainer extends Component {
             <span className="gradient" />
             <img className="landing-img-0" src={cargoTruck} alt="Cargo truck" />
             <div className="register-login">
-              <button className="btn btn-register js_register">R E G I S T E R</button>
+              <button className="btn btn-register js_register">R E G I S T R A T E</button>
               <button className="btn js_login">L O G I N</button>
             </div>
             <div className="login-user">
@@ -59,9 +61,9 @@ class LandingContainer extends Component {
               <div className="inside-container">
                 <h2 className="subtitle">e n t r e G o</h2>
                 <p className="about-summary-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam autem harum perferendis,
-                  cupiditate et eos non omnis voluptatibus vitae ipsum commodi sapiente repudiandae tenetur mollitia,
-                  fugiat incidunt iure repellendus minus! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Conectamos personas que necesitan trasladar productos con conductores verificados con vehiculos ajustados a tus necesidades.
+                  Si deseas trasladar tus productos con nosotros puedes monitorear tu carga en tiempo real y ver donde se encuentra tu conductor en todo momento.
+                  La calidad de servicio esta asegurada con entreGo.
                 </p>
               </div>
             </div>
@@ -72,10 +74,10 @@ class LandingContainer extends Component {
                 <img className="landing-img-1" src={cargoTruck2} alt="Cargo truck" />
               </div>
               <div className="about-detail-text">
-                <h2 className="title">WHY entreGo?</h2>
+                <h2 className="title">POR QUÉ entreGo?</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam autem harum perferendis,
-                  cupiditate et eos non omnis voluptatibus vitae ipsum commodi sapiente repudiandae tenetur mollitia.
+                  Como cliente te proveemos SEGURIDAD, trasladando tu mercancía con conductores de confianza, te ahorramos TIEMPO ya que no necesitas esperar
+                  horas o preocuparte por alguien que te recomiende un conductor.
                 </p>
               </div>
             </div>
@@ -83,42 +85,36 @@ class LandingContainer extends Component {
 
           <section className="services">
             <div className="underline-effect">
-              <h2 className="title">S E R V I C E S</h2>
+              <h2 className="title">S E R V I C I O S</h2>
               <div className="inside-container service-text">
                 <div className="services-types">
                   <div className="service-description">
-                    <h4>S E R V I C E 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                      tempora aliquid.</p>
+                    <h4>C O N E C T A</h4>
+                    <p>Deja de preocuparte por buscar un conductor confiable, e inverte ese tiempo en tu negocio.</p>
                   </div>
                   <div className="service-description">
-                    <h4>S E R V I C E 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                     tempora aliquid.</p>
+                    <h4>M O N I T O R E A</h4>
+                    <p>Puedes ver dónde se encuentra tu mercancía en tiempo real, y acceder desde tu laptop o smartphone.</p>
                   </div>
                 </div>
                 <div className="services-types">
                   <div className="service-description">
-                    <h4>S E R V I C E 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                      tempora aliquid.</p>
+                    <h4>A &nbsp; M E D I D A</h4>
+                    <p>Ingresa el tipo de carga y un conductor con las especificaciones necesarias se hará presente.</p>
                   </div>
                   <div className="service-description">
-                    <h4>S E R V I C E 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                     tempora aliquid.</p>
+                    <h4>C O N D U C E</h4>
+                    <p>Como conductor eres capaz de elegir que llevar según el tipo de carga que puedas transportar.</p>
                   </div>
                 </div>
                 <div className="services-types">
                   <div className="service-description">
-                    <h4>S E R V I C E 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                      tempora aliquid.</p>
+                    <h4>P R E M I U M</h4>
+                    <p>Nuestro servicio es de primera calidad, y nuestros precios se ajustan a tu necesidad</p>
                   </div>
                   <div className="service-description">
-                    <h4>S E R V I C E 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                     tempora aliquid.</p>
+                    <h4>G A N A</h4>
+                    <p>Como conductor podras contar con ingreso adicionales y los beneficios de trabajar con nosotros</p>
                   </div>
                 </div>
                 <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
@@ -142,38 +138,35 @@ class LandingContainer extends Component {
           </section>
 
           <section className="work-with-us">
-            <h2 className="title">W O R K &nbsp; W I T H &nbsp; U S</h2>
+            <h2 className="title">T R A B A J A &nbsp; C O N &nbsp; N O S O T R O S</h2>
             <div className="start-to-work">
-              <Link to={driver.register} className="btn-work">S T A R T &nbsp; N O W !</Link>
+              <Link to={driver.register} className="btn-work">E M P I E Z A &nbsp; A H O R A !</Link>
             </div>
             <div className="benefit">
               <div className="benefit-icon">
                 <FontAwesomeIcon icon={faDollarSign} />
               </div>
               <div className="benefit-text">
-                <h4>B E N E F I T 1</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                   tempora aliquid.</p>
+                <h4>D I N E R O &nbsp; E X T R A</h4>
+                <p>Regístrate gratis y comienza a ganar al instante. Obten los beneficios de trabajar con entreGo.</p>
               </div>
             </div>
             <div className="benefit">
               <div className="benefit-text">
-                <h4>B E N E F I T 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                   tempora aliquid.</p>
+                <h4>L I B E R T A D</h4>
+                <p>Con entreGo trabajas tanto como quieras, cuando quieras y donde quieras. Comienza con entreGo ahora! </p>
               </div>
               <div className="benefit-icon">
-                <FontAwesomeIcon icon={faDollarSign} />
+                <FontAwesomeIcon icon={faPeopleCarry} />
               </div>
             </div>
             <div className="benefit">
               <div className="benefit-icon">
-                <FontAwesomeIcon icon={faDollarSign} />
+                <FontAwesomeIcon icon={faTruckMoving} />
               </div>
               <div className="benefit-text">
-                <h4>B E N E F I T 3</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, iusto. Iste facere a,
-                   tempora aliquid.</p>
+                <h4>S O P O R T E</h4>
+                <p>Proporcionamos a los conductores todas las herramientas necesarias que necesitan para conducir de forma segura.</p>
               </div>
             </div>
           </section>
@@ -181,29 +174,29 @@ class LandingContainer extends Component {
           <section className="statistics">
             <div className="statistics-type">
               <p className="statistics-number">150 K+</p>
-              <p className="statistics-label">Satisfied Users</p>
+              <p className="statistics-label">Clientes satisfechos</p>
             </div>
             <div className="statistics-type">
               <p className="statistics-number">15 K+</p>
-              <p className="statistics-label">Happy Drivers</p>
+              <p className="statistics-label">Conductores felices</p>
             </div>
             <div className="statistics-type">
               <p className="statistics-number">800 K+</p>
-              <p className="statistics-label">Completed Shipments</p>
+              <p className="statistics-label">Envios completados</p>
             </div>
             <div className="statistics-type">
               <p className="statistics-number">20 K+</p>
-              <p className="statistics-label">Founding</p>
+              <p className="statistics-label">Inversion</p>
             </div>
           </section>
 
           <section className="contact">
             <div className="contact-text">
-              <h2 className="subtitle">C O N T A C T</h2>
-              <p className="bold">Doubts? Contact with us!</p>
+              <h2 className="subtitle">C O N T A C T O</h2>
+              <p className="bold">Dudas? Contacta con nosotros!</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam autem harum perferendis,
-                cupiditate et eos non omnis voluptatibus vitae ipsum commodi sapiente repudiandae tenetur mollitia.
+                Si tienes una sugerencia, una queja sobre el servicio, o buscas comunicarte
+                con el equipo de entreGo, contactanos!
               </p>
               <div className="contact-data">
                 <div className="contact-personal">

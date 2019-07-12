@@ -46,8 +46,8 @@ class Order5Container extends Component {
         </div>
         <div className="total-earned">
           <div>
-            <h2>Congratulations!</h2>
-            <h4>You win:</h4>
+            <h2>Felicitaciones!</h2>
+            <h4>Ganaste:</h4>
             <div className="border-earned-money">
               <p className="earned-money">{this.state.ready ? `$${this.state.cost}` : '20 $'}</p>
             </div>
@@ -61,7 +61,7 @@ class Order5Container extends Component {
         <div>
           <div className="order-btn-5">
             <UIbutton component={Link} to={driver.dashboard} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              ACCEPT &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
+              ACEPTAR &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
           </div>
         </div>
       </div>

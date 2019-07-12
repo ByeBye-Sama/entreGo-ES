@@ -12,7 +12,7 @@ class DriverDashboard extends Component {
       <div className="driver-dashboard">
         <Link to={driver.order1} className="driver-start-btn">
           <FontAwesomeIcon icon={faTruck} />
-          &nbsp; S T A R T &nbsp; N O W
+          &nbsp; E M P I E Z A &nbsp; A H O R A
         </Link>
         <div className="gradient-img-driver">
           <span className="gradient" />

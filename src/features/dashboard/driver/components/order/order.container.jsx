@@ -60,20 +60,20 @@ class OrderContainer extends Component {
             <p className="order-data-client">{this.props.firstName} {this.props.lastName}</p>
           </div>
           <div className="order-data">
-            <p className="order-data-label"><FontAwesomeIcon icon={faLocationArrow} /> Dest. address:</p>
+            <p className="order-data-label"><FontAwesomeIcon icon={faLocationArrow} /> Direccion dest:</p>
             <p className="order-data-content">{this.props.endAddress}</p>
           </div>
           <div className="order-data">
-            <p className="order-data-label"><FontAwesomeIcon icon={faTruck} /> Cargo volume:</p>
+            <p className="order-data-label"><FontAwesomeIcon icon={faTruck} /> Volumen del cargo:</p>
             <p className="order-data-content">{this.props.packageVolume} m3</p>
           </div>
           <div className="order-data">
-            <p className="order-data-label"><FontAwesomeIcon icon={faGlasses} /> Observation:</p>
+            <p className="order-data-label"><FontAwesomeIcon icon={faGlasses} /> Observaciones:</p>
             <p className="order-data-content">{this.props.observations}</p>
           </div>
           <div className="order-btn">
-            <UIbutton onClick={this.takeOrder} component={Link} to={driver.order2} className="order-accept-btn" name="button" variant="contained" color="primary"  ><FontAwesomeIcon icon={faHandHoldingUsd} />&nbsp; $ {this.props.cost} - ACCEPT</UIbutton>
-            <UIbutton className="order-cancel-btn" name="button" color="default">CANCEL</UIbutton>
+            <UIbutton onClick={this.takeOrder} component={Link} to={driver.order2} className="order-accept-btn" name="button" variant="contained" color="primary"  ><FontAwesomeIcon icon={faHandHoldingUsd} />&nbsp; $ {this.props.cost} - ACEPTAR</UIbutton>
+            <UIbutton className="order-cancel-btn" name="button" color="default">CANCELAR</UIbutton>
           </div>
         </div>
       </div>

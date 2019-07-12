@@ -92,7 +92,7 @@ class OrderDashboardContainer extends Component {
           <img className="driver-img-1" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="order-title">
-          <h2>Start your cargo &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faTruck} /></h2>
+          <h2>Empieza tu encargo &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faTruck} /></h2>
         </div>
         <OrderComponent handleSubmit={(e) => { this.handleSubmit(e) }} handleChange={(e) => { this.handleChange(e) }} />
         <MapUser1Layout />

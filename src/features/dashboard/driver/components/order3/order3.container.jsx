@@ -42,7 +42,7 @@ class Order3Container extends Component {
           <img className="driver-img-1" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="terms-conditions">
-          <h2>Terms & conditions &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faTruck} /></h2>
+          <h2>Terminos & condiciones &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faTruck} /></h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tempore aspernatur repudiandae ipsam earum
           iure dignissimos odit voluptate? Eius commodi necessitatibus consequatur velit? Pariatur esse nemo cumque porro, error voluptates.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tempore aspernatur repudiandae ipsam earum
@@ -56,8 +56,8 @@ class Order3Container extends Component {
         <div>
           <div className="order-btn-3">
             <UIbutton onClick={this.signAgreement} component={Link} to={driver.order4} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              ACCEPT & SEND &nbsp;<FontAwesomeIcon icon={faFileUpload} /></UIbutton>
-            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCEL</UIbutton>
+              ACEPTAR Y ENVIAR &nbsp;<FontAwesomeIcon icon={faFileUpload} /></UIbutton>
+            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCELAR</UIbutton>
           </div>
         </div>
       </div>

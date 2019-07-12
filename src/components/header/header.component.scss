@@ -37,6 +37,19 @@ header {
   }
 }
 
+@media (max-width: $mq-tablet) {
+  header{
+    .inside-container{
+      .header-nav{
+        li{
+          padding: 5px 15px;
+        }
+      }
+    }
+  }
+}
+
+
 @media (max-width: $mq-mobile) {
   header{
     .inside-container{

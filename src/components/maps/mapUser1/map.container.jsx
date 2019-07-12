@@ -23,7 +23,7 @@ class SearchMap extends MapControl {
       autoClose: false,
       animateZoom: false,
       keepResult: false,
-      searchLabel: 'Enter destination address',
+      searchLabel: 'Ingresa direccion de destino',
     });
   }
 }

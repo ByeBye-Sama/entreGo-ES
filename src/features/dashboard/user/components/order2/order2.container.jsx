@@ -62,8 +62,8 @@ class OrderClient2Logic extends Component {
           <img className="client-img-1" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="total-earned">
-          <h2>Total payment</h2>
-          <h4>Cash</h4>
+          <h2>Pago total</h2>
+          <h4>Efectivo</h4>
           <div className="border-total-cost">
             <p className="total-cost">{this.props.cost} $</p>
           </div>
@@ -71,8 +71,8 @@ class OrderClient2Logic extends Component {
         <div>
           <div className="order-btn-2">
             <UIbutton onClick={this.payOrder} className="order-accept-btn js_loader" name="button" variant="contained" color="primary" fullWidth={true}>
-              PAY &nbsp;<FontAwesomeIcon icon={faMoneyBillAlt} /></UIbutton>
-            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCEL</UIbutton>
+              PAGAR &nbsp;<FontAwesomeIcon icon={faMoneyBillAlt} /></UIbutton>
+            <UIbutton className="order-cancel-btn" name="button" color="default" fullWidth={true}>CANCELAR</UIbutton>
           </div>
         </div>
       </div>

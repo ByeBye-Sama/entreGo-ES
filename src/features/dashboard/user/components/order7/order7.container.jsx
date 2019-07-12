@@ -41,15 +41,15 @@ class OrderClient7Logic extends Component {
           <img className="driver-img-7" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="order-title">
-          <h2>Your</h2>
-          <h2>driver arrived</h2>
-          <h2>at the</h2>
-          <h2>destination !</h2>
+          <h2>Tu conductor</h2>
+          <h2>llego</h2>
+          <h2>al</h2>
+          <h2>destino !</h2>
         </div>
         <div>
           <div className="order-btn-7">
             <UIbutton onClick={this.changeStatus} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              ACCEPT &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
+              ACEPTAR &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
           </div>
         </div>
 

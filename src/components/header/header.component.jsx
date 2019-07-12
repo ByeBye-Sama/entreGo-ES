@@ -40,11 +40,11 @@ class Header extends React.Component {
           <Link className="header-logo" to="/">entreGo</Link>
           <nav>
             <ul className="header-nav">
-              <li className="homeJump">H O M E</li>
-              <li className="aboutJump">A B O U T</li>
-              <li className="servicesJump">S E R V I C E S</li>
-              <li className="workJump">W O R K &nbsp; W I T H &nbsp; U S</li>
-              <li className="contactJump">C O N T A C T</li>
+              <li className="homeJump">I N I C I O</li>
+              <li className="aboutJump">A C E R C A</li>
+              <li className="servicesJump">S E R V I C I O S</li>
+              <li className="workJump">S E &nbsp; C O N D U C T O R</li>
+              <li className="contactJump">C O N T A C T O</li>
             </ul>
           </nav>
         </div>

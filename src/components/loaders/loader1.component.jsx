@@ -17,8 +17,8 @@ class Loader1 extends Component {
           <img className="loader-img-1" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="order-title">
-          <h2>Waiting</h2>
-          <h2>for driver</h2>
+          <h2>Buscando</h2>
+          <h2>un conductor</h2>
           <div className="loader-icon">
             <FontAwesomeIcon icon={faSpinner} pulse/>
           </div>

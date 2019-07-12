@@ -37,14 +37,14 @@ class OrderClient4Container extends Component {
           <img className="driver-img-4" src={cargoTruck} alt="Cargo truck" />
         </div>
         <div className="order-title">
-          <h2>Your</h2>
-          <h2>driver</h2>
-          <h2>arrived !</h2>
+          <h2>Tu</h2>
+          <h2>conductor</h2>
+          <h2>llego !</h2>
         </div>
         <div>
           <div className="order-btn-4">
             <UIbutton onClick={this.clearLocalStorage} component={Link} to={client.order5} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              ACCEPT &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
+              ACEPTAR &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
           </div>
         </div>
       </div>

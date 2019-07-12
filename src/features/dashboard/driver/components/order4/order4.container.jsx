@@ -47,7 +47,7 @@ class Order4Container extends Component {
         <div>
           <div className="order-btn-4">
             <UIbutton onClick={this.endService} component={Link} to={driver.order5} className="order-accept-btn" name="button" variant="contained" color="primary" fullWidth={true}>
-              I ARRIVED &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
+              LLEGUE &nbsp;<FontAwesomeIcon icon={faTruck} /></UIbutton>
           </div>
         </div>
       </div>

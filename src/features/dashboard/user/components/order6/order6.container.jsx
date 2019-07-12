@@ -65,11 +65,11 @@ class OrderClient6Container extends Component {
             <img className="order-data-vehiclephoto" src={vehiclePlaceHolder} alt="user photo" />
             <div>
               <div className="order-data">
-                <p className="order-data-label"><FontAwesomeIcon icon={faTruck} />&nbsp;Vehicle Brand:</p>
+                <p className="order-data-label"><FontAwesomeIcon icon={faTruck} />&nbsp;Tipo de vehiculo:</p>
                 <p className="order-data-content">{this.state.ready ? `${this.state.driver[0].brand}` : 'Mercedez-Benz Atego 2019'}</p>
               </div>
               <div className="order-data">
-                <p className="order-data-label"><FontAwesomeIcon icon={faShippingFast} />&nbsp;Vehicle Plate:</p>
+                <p className="order-data-label"><FontAwesomeIcon icon={faShippingFast} />&nbsp;Placa de vehiculo:</p>
                 <p className="order-data-content">{this.state.ready ? `${this.state.driver[0].plate}` : 'TGH-564'}</p>
               </div>
             </div>
