@@ -1,4 +1,4 @@
-const entregoBaseUrl = 'http://localhost:4000';
+const entregoBaseUrl = 'https://serverentrego.herokuapp.com/';
 
 export {
   entregoBaseUrl

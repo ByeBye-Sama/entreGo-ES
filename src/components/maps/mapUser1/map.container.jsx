@@ -55,14 +55,12 @@ function MapUser1Container() {
     })
   }, [])
 
-
-
   const [lastCoordenate, setLastCoordenate] = React.useState([0, 0]);
   React.useEffect(() => {
     mapRef.current.leafletElement.on('geosearch/showlocation', (value) => {
       setLastCoordenate([parseFloat(value.location.y), parseFloat(value.location.x)]);
 
-      console.log('lastCoordenate', value);
+      mapRef.current.leafletElement.dragging.enable();
     })
   }, [])
 
